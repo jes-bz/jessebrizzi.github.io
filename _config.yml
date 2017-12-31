@@ -14,7 +14,7 @@ brand_color: "gray"
 
 # How article URLs are structured.
 # See: https://jekyllrb.com/docs/permalinks/
-permalink: posts/:title/
+permalink: :title/
 
 # "UA-NNNNNNNN-N"
 google_analytics: ""
@@ -38,7 +38,6 @@ exclude:
   - yarn.lock
   - package.json
   - hot
-  - LICENSE.txt
 
 plugins:
   - jekyll-feed
