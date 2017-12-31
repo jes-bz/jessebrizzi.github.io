@@ -17,7 +17,7 @@ title: "Jesse Brizzi"
         </center>
     </div>
     <div>
-        <h3>Resume (HORRENDOUSLY OUT OF DATE. WILL UPDATE SOON™️)</h3>
+        <h3><a href="https://docs.google.com/a/stonybrook.edu/uc?id=0B0vRL7F7C1YieFFjRnJLSk5JVmc">Resume (HORRENDOUSLY OUT OF DATE. WILL UPDATE SOON™️)</a></h3>
         <center>
             <object data="https://docs.google.com/a/stonybrook.edu/uc?id=0B0vRL7F7C1YieFFjRnJLSk5JVmc" type="application/pdf" width="800px" height="200px">
                 Trouble viewing the PDF? Click here instead: <a href="https://docs.google.com/a/stonybrook.edu/uc?id=0B0vRL7F7C1YieFFjRnJLSk5JVmc">Resume</a>
