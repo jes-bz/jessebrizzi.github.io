@@ -13,8 +13,8 @@ title: "Expression Detection in Infants Through Facial Deformation Performance A
             Work on this project will continue in the spring once we receive IRB approval to collect our own data and start testing hardware.
         </p>
         <p>
-            <object data="https://drive.google.com/uc?export=view&id=1RtD5jIWJJvRbDrftywDGKlh8jj6rh5Fm#zoom=25" type="application/pdf" width="500px" height="400px">
-                Trouble viewing the PDF? Click here instead: https://www.dropbox.com/s/j4ufgf8idsrmvgz/REUPoster-Brizzi.pdf
+            <object data="/pdf/REUPoster-Brizzi.pdf#zoom=20" type="application/pdf" width="800px" height="400px">
+                Trouble viewing the PDF? Click here instead: /pdf/REUPoster-Brizzi.pdf
             </object>
         </p>
     </div>
