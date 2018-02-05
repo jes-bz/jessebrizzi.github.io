@@ -17,7 +17,7 @@ title: "Jesse Brizzi"
         </center>
     </div>
     <div>
-        <h3><a href="/pdf/JesseBrizziResume.pdf">Resume (HORRENDOUSLY OUT OF DATE. WILL UPDATE SOON™️)</a></h3>
+        <h3><a href="/pdf/JesseBrizziResume.pdf">Resume</a></h3>
         <center>
             <object data="/pdf/JesseBrizziResume.pdf" type="application/pdf" width="800px" height="200px">
                 Trouble viewing the PDF? Click here instead: <a href="/pdf/JesseBrizziResume.pdf">Resume</a>
