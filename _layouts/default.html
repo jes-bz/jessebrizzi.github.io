@@ -111,7 +111,7 @@
         </section>
       {% endif %}
       <hr />
-      <p>Page last updated: December 2017</p>
+      <p id="last_updated"></p>
     </main>
     <script>
       var moreLink = document.querySelector('.js-more')
@@ -125,6 +125,22 @@
           })
         })
       }
+      // fetch last commit
+      var xhr = new XMLHttpRequest();
+          var url = "https://api.github.com/repos/jessebrizzi/jessebrizzi.github.io/commits/master";
+          xhr.open('GET', url, true);
+          xhr.responseType = 'json';
+          xhr.onload = function() {
+            var status = xhr.status;
+            if (status === 200) {
+              console.log(xhr.response);
+              document.getElementById("last_updated").innerHTML = "Last Updated: " + xhr.response.commit.author.date + " " + xhr.response.sha.substring(0,7);
+            } else {
+              console.log("oops something went wrong");
+              document.getElementById("last_updated").innerHTML = "oops something went wrong";
+            }
+          };
+          xhr.send();
     </script>
   </body>
 </html>
