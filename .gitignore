@@ -5,3 +5,4 @@ hot
 yarn-error.log
 .sass-cache
 *.md~
+*.lock
