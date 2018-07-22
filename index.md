@@ -4,8 +4,8 @@ title: "Jesse Brizzi"
 
 <section id="text">
     <center>
-        <p>Software Engineer && Research Engineer</p>
-        <p>Machine Learning, Computer Vision, Full Stack, Backend</p>
+        <p> Research Engineer && Software Engineer</p>
+        <p>Machine Learning, Computer Vision, Full Stack/Backend Engineering, Data Science</p>
         <p>Currently @ <a href="https://www.curalate.com/" target="_blank">Curalate</a></p>
         <p>jessebrizzi@{ gmail | curalate }.com</p>
     </center>
