@@ -3,6 +3,7 @@ title: Jesse Brizzi
 email: jbrizzi@cs.stonybrook.edu
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.jessebrizzi.com" # the base hostname & protocol for your site
+repository: jessebrizzi/jessebrizzi.github.io
 
 
 # ----------------------------------------------------------------------------
