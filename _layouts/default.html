@@ -114,6 +114,20 @@
       <p id="last_updated"></p>
     </main>
     <script>
+      function formatDate(date) {
+        var monthNames = [
+          "January", "February", "March",
+          "April", "May", "June", "July",
+          "August", "September", "October",
+          "November", "December"
+        ];
+
+        var day = date.getDate();
+        var monthIndex = date.getMonth();
+        var year = date.getFullYear();
+
+        return day + ' ' + monthNames[monthIndex] + ' ' + year;
+      }
       var moreLink = document.querySelector('.js-more')
       if (moreLink) {
         document.querySelector('.js-more').addEventListener('click', function (e) {
@@ -127,20 +141,20 @@
       }
       // fetch last commit
       var xhr = new XMLHttpRequest();
-          var url = "https://api.github.com/repos/jessebrizzi/jessebrizzi.github.io/commits/master";
-          xhr.open('GET', url, true);
-          xhr.responseType = 'json';
-          xhr.onload = function() {
-            var status = xhr.status;
-            if (status === 200) {
-              console.log(xhr.response);
-              document.getElementById("last_updated").innerHTML = "Last Updated: " + xhr.response.commit.author.date + " " + xhr.response.sha.substring(0,7);
-            } else {
-              console.log("oops something went wrong");
-              document.getElementById("last_updated").innerHTML = "oops something went wrong";
-            }
-          };
-          xhr.send();
+      var url = "https://api.github.com/repos/{{site.repository}}/commits/master";
+      xhr.open('GET', url, true);
+      xhr.responseType = 'json';
+      xhr.onload = function () {
+        var status = xhr.status;
+        if (status === 200) {
+          console.log(xhr.response);
+          document.getElementById("last_updated").innerHTML = "Last Updated: " + formatDate(new Date(xhr.response.commit.author.date)) + "<a href=\"" + xhr.response.html_url + "\"> " + xhr.response.sha.substring(0, 7) + "</a>";
+        } else {
+          console.log("oops something went wrong");
+          document.getElementById("last_updated").innerHTML = "oops something went wrong";
+        }
+      };
+      xhr.send();
     </script>
   </body>
 </html>

@@ -19,9 +19,7 @@ title: "Jesse Brizzi"
     <div>
         <h3><a href="/pdf/JesseBrizziResume.pdf">Resume</a></h3>
         <center>
-            <object data="/pdf/JesseBrizziResume.pdf" type="application/pdf" width="800px" height="200px">
-                Trouble viewing the PDF? Click here instead: <a href="/pdf/JesseBrizziResume.pdf">Resume</a>
-            </object>
+             <iframe src="https://drive.google.com/file/d/1qXzVxnPXS0bZL67kyx9YaPBJt7M6PR5v/preview" id="resume"></iframe>
         </center>
     </div>
 </section>

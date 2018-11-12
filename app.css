@@ -1099,3 +1099,8 @@ p img {
   margin: 0 auto;
   display: block;
 }
+
+#resume {
+    width: 80%;
+    height: 400px;
+}
