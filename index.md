@@ -19,7 +19,7 @@ title: "Jesse Brizzi"
     <div>
         <h3><a href="/pdf/JesseBrizziResume.pdf">Resume</a></h3>
         <center>
-             <iframe src="https://drive.google.com/file/d/1qXzVxnPXS0bZL67kyx9YaPBJt7M6PR5v/preview" id="resume"></iframe>
+             <iframe src="https://drive.google.com/file/d/{{ site.google-drive-resume-file-id }}/preview" id="resume"></iframe>
         </center>
     </div>
 </section>
