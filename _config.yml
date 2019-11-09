@@ -29,7 +29,7 @@ num_posts_visible_initially: 10
 # Date format: See http://strftime.net/
 date_format: "%Y %b %-d"
 
-google-drive-resume-file-id: 15df5e1_Bp3h3wx1nZ3dftWu0LZij74WG
+google-drive-resume-file-id: 1M169D9NtOcpOktPKRVKwTCKFuuLemchY
 # ----------------------------------------------------------------------------
 
 exclude:
