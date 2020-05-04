@@ -6,7 +6,7 @@ title: "Jesse Brizzi"
     <center>
         <p> Research Engineer && Software Engineer</p>
         <p>Machine Learning, Computer Vision, Full Stack/Backend Engineering, Data Science</p>
-        <p>Machine Learning Software Engineer @ <a href="https://about.fb.com/" target="_blank">Facebook</a></p>
+        <p>Machine Learning Software Engineer @ <a href="https://about.instagram.com/about-us" target="_blank">Instagram</a></p>
         <p>Founder @ <a href="https://inferdo.com/" target="_blank">inferdo</a></p>
         <p>jessebrizzi@{ gmail | fb | inferdo }.com</p>
     </center>
