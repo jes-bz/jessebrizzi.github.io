@@ -4,7 +4,7 @@ title: "Jesse Brizzi"
 
 <section id="text">
     <center>
-        <p> Research Engineer && Software Engineer</p>
+        <p> Machine Learning Engineer && Software Engineer</p>
         <p>Machine Learning, Computer Vision, Full Stack/Backend Engineering, Data Science</p>
         <p>Machine Learning Software Engineer @ <a href="https://about.instagram.com/about-us" target="_blank">Instagram</a></p>
         <p>Founder @ <a href="https://inferdo.com/" target="_blank">inferdo</a></p>
