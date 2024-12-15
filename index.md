@@ -6,9 +6,8 @@ title: "Jesse Brizzi"
     <center>
         <p> Machine Learning Engineer && Software Engineer</p>
         <p>Machine Learning, Computer Vision, Full Stack/Backend Engineering, Data Science</p>
-        <p>Machine Learning Software Engineer @ <a href="https://about.instagram.com/about-us" target="_blank">Instagram</a></p>
-        <p>Founder @ <a href="https://inferdo.com/" target="_blank">inferdo</a></p>
-        <p>jessebrizzi@{ gmail | fb | inferdo }.com</p>
+        <p>Machine Learning Software Engineer @ <a href="https://www.twosigma.com/" target="_blank">Two Sigma</a></p>
+        <p>jessebrizzi@{ gmail }.com</p>
     </center>
     <div>
         <center>
@@ -20,7 +19,7 @@ title: "Jesse Brizzi"
     <div>
         <h3><a href="/pdf/JesseBrizziResume.pdf">Resume</a></h3>
         <center>
-             <iframe src="https://drive.google.com/file/d/{{ site.google-drive-resume-file-id }}/preview" id="resume"></iframe>
+             <iframe src="https://drive.google.com/file/d/10lT0rxJw5TnDs0195iJmQzPV0oBrtSPt/preview" id="resume"></iframe>
         </center>
     </div>
 </section>
