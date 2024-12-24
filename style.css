@@ -166,3 +166,26 @@ h1 {
         height: 28px;
     }
 }
+
+footer {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    text-align: center;
+    border-top: 1px solid var(--raisin-black);
+}
+
+.last-updated {
+    font-size: 0.9rem;
+    color: var(--secondary-text);
+}
+
+.last-updated a {
+    color: var(--accent);
+    text-decoration: none;
+    transition: filter 0.3s ease;
+    padding: 0 0.3rem;
+}
+
+.last-updated a:hover {
+    filter: brightness(var(--hover-brightness));
+}
