@@ -16,10 +16,4 @@ title: "Jesse Brizzi"
             <a href="https://www.github.com/jessebrizzi" target="_blank" ><img src="/images/github-icon.png" alt="github link"></a>
         </center>
     </div>
-    <div>
-        <h3><a href="/pdf/JesseBrizziResume.pdf">Resume</a></h3>
-        <center>
-             <iframe src="https://drive.google.com/file/d/10lT0rxJw5TnDs0195iJmQzPV0oBrtSPt/preview" id="resume"></iframe>
-        </center>
-    </div>
 </section>
