@@ -111,6 +111,41 @@ h1 {
     filter: brightness(var(--hover-brightness));
 }
 
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-background::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/* Video hover effects */
+.social-links .social-link-1:hover~#social-video-1,
+.social-links .social-link-3:hover~#social-video-3,
+.social-links .social-link-2:hover~#social-video-2 {
+    opacity: 0.9;
+}
+
 .resume-button {
     display: inline-block;
     padding: 0.8rem 2rem;

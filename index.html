@@ -32,16 +32,35 @@
             </div>
             <div class="email">{ mail } @ jessebrizzi.com</div>
             <div class="social-links">
-                <a href="https://www.linkedin.com/pub/jesse-brizzi/80/50a/779" target="_blank"
-                    rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/pub/jesse-brizzi/80/50a/779" target="_blank" rel="noopener noreferrer"
+                    class="social-link-1">
                     <img src="images/linkedin-icon.png" alt="LinkedIn">
                 </a>
-                <a href="https://instagram.com/j3553b" target="_blank" rel="noopener noreferrer">
+                <a href="https://instagram.com/j3553b" target="_blank" rel="noopener noreferrer" class="social-link-2">
                     <img src="images/instagram-icon.png" alt="Instagram">
                 </a>
-                <a href="https://www.github.com/jessebrizzi" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.github.com/jessebrizzi" target="_blank" rel="noopener noreferrer"
+                    class="social-link-3">
                     <img src="images/github-icon.png" alt="GitHub">
                 </a>
+                <div id="social-video-1" class="video-background">
+                    <video loop muted playsinline preload="auto">
+                        <source src="vids/work-hd_1920_1080_30fps.webm" type="video/webm">
+                        <source src="vids/work-hd_1920_1080_30fps.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div id="social-video-2" class="video-background">
+                    <video loop muted playsinline preload="auto">
+                        <source src="vids/fly-hd_1920_1080_30fps.webm" type="video/webm">
+                        <source src="vids/fly-hd_1920_1080_30fps.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div id="social-video-3" class="video-background">
+                    <video loop muted playsinline preload="auto">
+                        <source src="vids/code-hd_1920_1080_25fps.webm" type="video/webm">
+                        <source src="vids/code-hd_1920_1080_25fps.mp4" type="video/mp4">
+                    </video>
+                </div>
             </div>
             <div class="resume">
                 <a href="pdf/JesseBrizziResume.pdf" target="_blank" rel="noopener noreferrer" class="resume-button">
@@ -54,6 +73,41 @@
         </footer>
     </main>
     <script>
+        // Video hover functionality
+        document.addEventListener('DOMContentLoaded', () => {
+            const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent) || window.innerWidth < 768;
+
+            if (!isMobile) {
+                const videos = {
+                    linkedin: document.querySelector('#social-video-1 video'),
+                    instagram: document.querySelector('#social-video-2 video'),
+                    github: document.querySelector('#social-video-3 video')
+                };
+
+                const links = {
+                    linkedin: document.querySelector('.social-link-1'),
+                    instagram: document.querySelector('.social-link-2'),
+                    github: document.querySelector('.social-link-3')
+                };
+
+                // Add hover listeners for each social link
+                Object.entries(links).forEach(([key, link]) => {
+                    link.addEventListener('mouseenter', () => {
+                        videos[key].playbackRate = 0.5;
+                        videos[key].play();
+                    });
+
+                    link.addEventListener('mouseleave', () => {
+                        videos[key].pause();
+                        videos[key].currentTime = 0;
+                    });
+                });
+            } else {
+                // Remove video elements on mobile to prevent unnecessary loading
+                document.querySelectorAll('.video-background').forEach(videoEl => videoEl.remove());
+            }
+        });
+
         function formatDate(date) {
             const monthNames = [
                 "January", "February", "March",
